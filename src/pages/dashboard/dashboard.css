@@ -1,0 +1,85 @@
+
+p {
+  font-size: 28px;
+  color: #232323;
+}
+
+form {
+  margin-top: 30px;
+  width: 100%;
+}
+
+label {
+  font-size: 20px;
+  margin-right: 8px;
+  font-weight: bold;
+}
+
+input {
+  height: 45px;
+  border-radius: 4px;
+  font-size: 20px;
+  padding-left: 10px;
+  border: 0;
+  width: 100%;
+  color: #444;
+}
+
+input::placeholder {
+  color: #a0a0a0;
+}
+
+button {
+  /* height: 30px; */
+  width: 50%;
+  font-size: 28px; 
+  padding: 5px;
+  color: #FFF;
+  font-weight: bold;
+  background: #4da070;
+  border: 0;
+  border-bottom: solid 2px #2b8050; 
+  border-radius: 4px;
+  margin-top: 20px;
+  cursor: pointer
+}
+
+button:hover {
+  background: #2b8050
+}
+
+button:disabled {
+  background: #787878;
+  border-bottom: 0;
+}
+
+.background-layer {
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  z-index: -1;
+  background: #00000077;
+  justify-items: center;
+  justify-content: center;
+  padding: auto;
+  padding-top: 10%;
+}
+
+.login-form {
+  height: 35%;
+  min-height: 300px;
+  max-height: 600px;
+  width: 40%;
+  min-width: 500px;
+  max-width: 40%;
+  background: #EEE;
+  z-index: 99;
+  border-radius: 8px;
+  margin: auto;
+  text-align: center;
+  padding: 30px;
+}
+
+body, input, button {
+  font-family: monospace;
+}
