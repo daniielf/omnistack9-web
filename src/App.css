@@ -9,8 +9,29 @@ html, body, #root {
   min-height: 100%;
 }
 
+body, input, button {
+  font-family: monospace;
+}
+
 body {
+  height: 100%;
   background: #515151 url('./assets/wallpaper.jpg') no-repeat;
   background-size: cover;
   -webkit-font-smoothing: antialiased !important;
+}
+
+.container {
+  margin: 80px auto 0;
+  /* max-width: 500px; */
+  width: 100%;
+}
+
+.background-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #00000077;
+  z-index: -1;
 }

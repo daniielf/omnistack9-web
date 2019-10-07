@@ -29,7 +29,7 @@ input::placeholder {
   color: #a0a0a0;
 }
 
-button {
+.login-button {
   /* height: 30px; */
   width: 50%;
   font-size: 28px; 
@@ -44,26 +44,14 @@ button {
   cursor: pointer
 }
 
-button:hover, button:focus {
+.login-button:hover, button:focus {
   background: #2b8050;
   border: solid 3px rgb(164, 196, 233)
 }
-
-button:disabled {
+  
+.login-button:disabled {
   background: #787878;
   border-bottom: 0;
-}
-
-.background-layer {
-  position: absolute;
-  min-height: 100%;
-  min-width: 100%;
-  z-index: -1;
-  background: #00000077;
-  justify-items: center;
-  justify-content: center;
-  padding: auto;
-  padding-top: 10%;
 }
 
 .login-form {
@@ -80,7 +68,10 @@ button:disabled {
   text-align: center;
   padding: 30px;
 }
-
-body, input, button {
-  font-family: monospace;
-}
+/* 
+body {
+  height: 100%;
+  background: #515151 url('../../assets/wallpaper.jpg') no-repeat;
+  background-size: cover;
+  -webkit-font-smoothing: antialiased !important;
+} */

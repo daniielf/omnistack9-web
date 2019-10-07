@@ -1,13 +1,18 @@
 import React, { useState } from 'react';
 import './App.css';
-import api from './services/api';
+// import api from './services/api';
 
-import LoginPage from './pages/login/login';
+import Routes from './routes';
 
 function App() {
 
   return (
-    <LoginPage ></LoginPage>
+    <>
+      <div className="background-layer"></div>
+      <div className="container">
+        <Routes/>
+      </div>
+    </>
   );
 }
 

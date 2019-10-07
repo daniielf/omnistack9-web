@@ -1,0 +1,60 @@
+.formContainer {
+  padding: 20px;
+  background: #FFF;
+  border-radius: 4px;
+  margin: auto;
+  width: 70%;
+  max-width: 800px;
+}
+
+.formInput {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  border: solid 1px #c9c9c9;
+}
+
+.formInput:focus {
+  border: solid 1px #51b6ad;
+}
+
+.registerButton {
+  width: 100%;
+  font-size: 28px; 
+  padding: 5px;
+  color: #FFF;
+  font-weight: bold;
+  background: #4da070;
+  border: 0;
+  border-bottom: solid 2px #2b8050; 
+  border-radius: 4px;
+  margin-top: 20px;
+  cursor: pointer
+}
+
+.registerButton:hover, button:focus {
+  background: #2b8050;
+}
+
+label#fileinput {
+  margin-bottom: 20px;
+  border: 1px dashed #ddd;
+  background-size: cover;
+  cursor: pointer;
+  height: 160px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+label#fileinput input {
+  display: none;
+}
+
+label#fileinput.has-thumbnail {
+  border: 0;
+}
+
+label#fileinput.has-thumbnail img{
+  display: none;
+}
