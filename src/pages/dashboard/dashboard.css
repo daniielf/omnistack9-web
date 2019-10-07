@@ -10,7 +10,7 @@ ul.spot-list {
   margin: auto;
   width: 100%;
   max-width: 700px;
-  padding: 50px;
+  padding: 10px;
   list-style: none;
   display: grid;
   grid-template-columns: 1fr 1fr;
